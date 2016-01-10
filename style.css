@@ -1,0 +1,62 @@
+.picture {
+    height: 300px;
+    width: 300px;
+    border-radius: 98px;
+    float: left;
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url("http://www.irish-danceshoes.com/images/PROFLEX%202.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+
+.experience {
+    list-style-type: circle;
+}
+
+
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li {
+    float:left;
+    
+}
+
+.social li a {
+    padding: 0 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    transition: color .5s;
+}
+
+.social li a:hover {
+    color: red;
+}
+.right {
+    float: right;
+    width: 50%;
+    background: rgba(255,255,255, .8);
+    min-height: 100vh;
+    
+}
+
+.padding {
+    padding: 50px;
+}
+
+
