@@ -3,6 +3,7 @@
     width: 300px;
     border-radius: 98px;
     float: left;
+    padding: 30px;
     
 }
 
@@ -35,6 +36,15 @@ h1 {
     
 }
 
+.pages {
+    color: black;
+}
+
+.pages li a:hover {
+    color: red;
+    transition: color .5s;
+}
+
 .social li a {
     padding: 0 5px;
     text-decoration: none;
@@ -47,6 +57,7 @@ h1 {
 .social li a:hover {
     color: red;
 }
+
 .right {
     float: right;
     width: 50%;
@@ -54,6 +65,14 @@ h1 {
     min-height: 100vh;
     
 }
+
+.left {
+    float: left;
+    width: 50%;
+    min-height: 100vh;
+    
+}
+
 
 .padding {
     padding: 50px;
